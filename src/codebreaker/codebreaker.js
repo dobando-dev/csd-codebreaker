@@ -3,6 +3,10 @@ class CodeBreaker {
     this.code = code;
   }
 
+  setNumberToGuess(number){
+    this.code = number;
+  }
+
   arriesgar(intento) {
     return "Ganaste!";
   }
